@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+body{
+    font-family: 'Raleway', sans-serif;
+}
+header{
+    padding-top: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+}   
+.banner-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #161616;
+    border: 1px solid #161616;
+    border-radius: 15px;
+}
+.banner{
+    width: 40%;
+} 
+.banner h1{
+    color: white;
+    font-size: 50px;
+}
+.banner p{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 10px;
+    line-height: 150%;
+}
+.banner button{
+    border: 1px solid #DD0000;
+    background-color: #DD0000;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 25px;
+}
+img{
+    width: 100%;
+}
+.banner-img{
+    width: 40%;
+}
+.container{
+    display: flex;
+    padding: 10%;
+    margin-bottom: 5%;
+}
+.menu{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 5px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #161616;
+    margin-right: 1%;
+}
+.menu button{
+    font-size: 12px;
+    font-weight: 600;
+    padding: 10px 60px;
+    margin: 6px 6px;
+    border-radius: 10px;
+}
+.unique{
+    background-color: #DD0000;
+    color: white;
+}
+.thumbnail{
+    display: flex;
+}
+.matches{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10%;
+    grid-row-gap: 20%;
+}
+.thumbnail img{
+    width: 100px;
+}
+.match-tittle {
+    display: flex;
+    margin-left: 15%;
+    display: inline;
+    align-items: center;
+}
+.match-tittle span{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 27px;
+    margin-top: 2%;
+}
+.match-tittle p{
+    font-size: 18px;
+    margin-left: 10%;
+}
+footer{
+    background-color: #161616;
+    padding: 8%;
+}
+.footer-start h2{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 5%;   
+}
+hr{
+    margin-bottom: 5%;
+    border-bottom: 0.5px solid gray;
+}
+ul{
+    text-align: center;
+}
+ul li{
+    display: inline;
+}
+ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+.footer-end{
+    padding-top: 5%;
+    text-align: center;
+}
+.fa-facebook{
+    font-size: 30px;
+}
+.fa-instagram{
+    font-size: 30px;
+}
+.fa-twitter{
+    font-size: 30px;
+}
+.fa-linkedin{
+    font-size: 30px;
+}
+.footer-end a{
+    padding: 2%;
+}
