@@ -311,6 +311,9 @@ ul li a{
         padding: 10px 20px;
         color: white;
     }
+    footer{
+        margin-right: 5%;
+    }
 } 
 
 /* tabltet end  ----------------  */
