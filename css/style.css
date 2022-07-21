@@ -241,12 +241,12 @@ ul li a{
     .container{
         flex-direction: column;
         padding: 5%;
+        margin-bottom: 40%;
     }
     .blogs{
         grid-template-columns: repeat(1, 1fr);
         grid-row-gap: 1%;
         padding: 15%;
-        margin-bottom: 30%;
     }
     .blog{
         width: 100%;
@@ -273,6 +273,7 @@ ul li a{
     .container{
         display: flex;
         flex-direction: column;
+        margin-bottom: 15%;
     }
     .menu{
         border: none;
@@ -287,22 +288,28 @@ ul li a{
     }
     .button{
         display: flex;
+        column-gap: 5%;
     }
     .banner-image{
         width: 55%;
     }
     .blogs{
         grid-template-columns: repeat(2, 1fr);
-        height: 243vh;
+        column-gap: 2%;
+    }
+    #tab-hide{
+        display: none;
     }
     ul{
         line-height: 50px;
     }
     .btn{
-        margin-left: 45%;
+        /* margin-left: 45%; */
         display: block;
-        margin-top: 100%;
-        padding-left: 24%;
+        text-align: center;
+        margin-bottom: 10%;
+        /* margin-top: 100%; */
+        /* padding-left: 24%; */
     }
     .btn button{
         border: solid #DD0000;
